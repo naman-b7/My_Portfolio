@@ -214,11 +214,11 @@ const App: React.FC = () => {
                 <div className="absolute -inset-2 border border-emerald-400/30 rounded-full animate-spin [animation-duration:20s]"></div>
                 <div className="absolute -inset-0.5 bg-gradient-to-r from-emerald-400 to-emerald-600 rounded-full blur-sm opacity-60 animate-spin [animation-duration:4s] group-hover:[animation-duration:2s]"></div>
                 <div className="relative w-full h-full bg-green-50 rounded-full p-1.5 transition-transform group-hover:scale-105">
-                     <img
-                        src="/NAMAN.jpg"
-                        alt="Profile Picture"
-                        className="w-full h-full object-cover rounded-full shadow-2xl"
-                      />
+                    <img
+                      src={`/NAMAN.jpg?${Date.now()}`}
+                      alt="Profile Picture"
+                      className="w-full h-full object-cover rounded-full shadow-2xl"
+                    />
                 </div>
             </div>
           </div>

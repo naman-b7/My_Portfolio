@@ -215,7 +215,7 @@ const App: React.FC = () => {
                 <div className="absolute -inset-0.5 bg-gradient-to-r from-emerald-400 to-emerald-600 rounded-full blur-sm opacity-60 animate-spin [animation-duration:4s] group-hover:[animation-duration:2s]"></div>
                 <div className="relative w-full h-full bg-green-50 rounded-full p-1.5 transition-transform group-hover:scale-105">
                     <img
-                      src="https://my-portfolio-r6i7f2acd-naman-banskotas-projects.vercel.app/NAMAN.jpg"
+                      src="/NAMAN.jpeg"
                       alt="Profile Picture"
                       className="w-full h-full object-cover rounded-full shadow-2xl"
                     />
